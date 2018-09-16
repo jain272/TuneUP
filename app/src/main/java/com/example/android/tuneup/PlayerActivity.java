@@ -316,6 +316,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/1OX1q67JTZXWUdKF0oKi7e");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchSG2() {
@@ -323,6 +324,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/3WK9bqjUmjYKZjpgOePsy8");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchSG3() {
@@ -330,6 +332,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/4NRrIjOcwLOITmEP2HgwbP");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchSG4() {
@@ -337,6 +340,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/1YJAlGGP8cDzqZJsoEQ3gD");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchP() {
@@ -344,6 +348,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("spotify:user:warlock6699:playlist:6rF0STnMcSRlbcnhiiFrDj");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchR() {
@@ -358,6 +363,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/2jArGkAqIWi2Sx8Hypa31p");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchST2() {
@@ -365,6 +371,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/7L5cshmVSw9v0X0mZIn78U");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchST3() {
@@ -372,6 +379,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/37nHJKXeTOgQhwZXvRtGfm");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchST4() {
@@ -379,6 +387,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/2amhJhphcPln6Ybsjh6IYH");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchC1() {
@@ -386,6 +395,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/0SUEaZOIRWBJsl8wWDwQAM");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchC2() {
@@ -393,6 +403,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/3tRCQgeVW3I9Nn47lvilrw");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchC3() {
@@ -400,6 +411,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/28iMFWE1FJmAmXZOxruBlZ");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchC4() {
@@ -407,6 +419,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/2QYuI6SROeJtqRWNxrUMxH");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT1() {
@@ -414,6 +427,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/2AjlccWiGYG0jvvOnC5zB7");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT2() {
@@ -421,6 +435,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/79gnLfvaKxD8GifGZPLx2v");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT3() {
@@ -428,6 +443,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/3683pKHDNgefBamcxpqs8h");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT4() {
@@ -435,6 +451,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/6hMiy1yc7aQwhIBkEPy579");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT5() {
@@ -442,6 +459,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/1uajGvEjcv1V6OU9X7P7Yf");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT6() {
@@ -449,6 +467,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/6jWhlLBvM2d4IDkADxZbQJ");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT7() {
@@ -456,6 +475,7 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/33JEvnoeXghLrt18qlAwcL");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void SwitchT8() {
@@ -463,11 +483,13 @@ public class PlayerActivity extends AppCompatActivity {
         Uri webpage = Uri.parse("https://open.spotify.com/playlist/0aUxW2AHypBMz8VH19FDQx");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
+        activityPoints=50;
     }
 
     public void Default() {
         //Exception
         Toast toast = Toast.makeText(getApplicationContext(), "You haven't selected an option!", Toast.LENGTH_SHORT);
         toast.show();
+        activityPoints=50;
     }
 }
