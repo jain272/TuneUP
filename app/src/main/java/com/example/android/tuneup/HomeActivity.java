@@ -42,7 +42,7 @@ public class HomeActivity extends AppCompatActivity {
             protected Void doInBackground(Void... voids) {
                 Uri uri = Uri.parse(USGS_BASE_URL);
                 Uri.Builder builder = uri.buildUpon();
-                builder.appendQueryParameter("apikey", "Jnqp30Uq1AmA4DpqGFa9vclJNBGcXXXOb");
+                builder.appendQueryParameter("apikey", "ajr8GYVfftISVReAL2NYa9tg7fewD0kd");
                 builder.appendQueryParameter("q", "West Lafayette");
                 uri = builder.build();
 

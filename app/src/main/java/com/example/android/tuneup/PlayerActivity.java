@@ -123,16 +123,15 @@ public class PlayerActivity extends AppCompatActivity {
                         break;
                     }
                     case 4: {
-                        if (time <= 7 && time >= 4) {
+                        if (time <= 7 && time > 4) {
                             activityPoints -= 25;
                         } else if (time <= 11 && time > 7) {
                             activityPoints -= 10;
-                        } else if (time <= 1 && time > 11) {
+                        } else if (time <= 13 && time > 11) {
                             activityPoints += 0;
-                        } else if (time < 19 && time >= 11) {
+                        } else if (time <= 19 && time > 11) {
                             activityPoints += 10;
-
-                        } else if (time < 4 || time > 19) {
+                        } else if (time <= 4 || time > 19) {
                             activityPoints += 25;
                         }
 
@@ -174,23 +173,23 @@ public class PlayerActivity extends AppCompatActivity {
                                 activityPoints += 0;
                                 break;
                         }
-                        if (time <= 7 && time >= 4) {
+                        if (time <= 7 && time > 4) {
                             activityPoints += 25;
                         } else if (time <= 11 && time > 7) {
                             activityPoints = +15;
                         } else if (time <= 13 && time > 11) {
                             activityPoints += 0;
-                        } else if (time < 19 && time >= 11) {
+                        } else if (time <= 19 && time > 13) {
                             activityPoints -= 25;
 
-                        } else if (time < 4 || time > 19) {
+                        } else if (time <= 4 || time > 19) {
                             activityPoints -= 25;
                         }
                         if (activityPoints <= 25) {
                             mood = "Mellow";
-                        } else if (activityPoints > 25 && activityPoints < 50) {
+                        } else if (activityPoints > 25 && activityPoints <= 50) {
                             mood = "Semi-Mellow";
-                        } else if (activityPoints > 50 && activityPoints < 75) {
+                        } else if (activityPoints > 50 && activityPoints <= 75) {
                             mood = "Semi-Active";
                         } else {
                             mood = "Active";
@@ -221,7 +220,7 @@ public class PlayerActivity extends AppCompatActivity {
                         } else if (weather == 'P') {
                             activityPoints += 15;
                         }
-                        if (temp < 30) {
+                        if (temp <= 30) {
                             activityPoints -= 25;
                         } else if (temp > 30 && temp <= 50) {
                             activityPoints += 15;
@@ -230,33 +229,32 @@ public class PlayerActivity extends AppCompatActivity {
                         } else {
                             activityPoints += 25;
                         }
-                        if (time >= 4 || time < 7) {
+                        if (time >= 4 && time < 7) {
                             activityPoints += 10;
-                        } else if (time >= 7 || time < 11) {
+                        } else if (time >= 7 && time < 11) {
                             activityPoints += 5;
                         } else if (time >= 11 && time < 14) {
                             activityPoints += 0;
                         } else if (time >= 14 && time < 19) {
                             activityPoints -= 15;
-
                         } else if (time >= 19 || time < 4) {
                             activityPoints -= 25;
                         }
-                        if (activityPoints < 12.5) {
+                        if (activityPoints < 13) {
                             mood = "Sad af";
-                        } else if (activityPoints >= 12.5 && activityPoints < 25) {
+                        } else if (activityPoints >= 13 && activityPoints < 25) {
                             mood = "Sad";
-                        } else if (activityPoints >= 25 && activityPoints < 37.5) {
+                        } else if (activityPoints >= 25 && activityPoints < 38) {
                             mood = "Mellow";
-                        } else if (activityPoints >= 37.5 && activityPoints < 40) {
+                        } else if (activityPoints >= 38 && activityPoints < 40) {
                             mood = "Semi-Mellow";
-                        } else if (activityPoints >= 40 && activityPoints < 52.5) {
+                        } else if (activityPoints >= 40 && activityPoints < 53) {
                             mood = "Normal";
-                        } else if (activityPoints >= 52.5 && activityPoints < 65) {
+                        } else if (activityPoints >= 53 && activityPoints < 65) {
                             mood = "Semi-Active";
-                        } else if (activityPoints >= 65 && activityPoints < 77.5) {
+                        } else if (activityPoints >= 65 && activityPoints < 78) {
                             mood = "Active";
-                        } else if (activityPoints >= 77.5 && activityPoints < 90) {
+                        } else if (activityPoints >= 78 && activityPoints < 90) {
                             mood = "Excited";
                         } else {
                             mood = "Excited af";
@@ -313,7 +311,7 @@ public class PlayerActivity extends AppCompatActivity {
 
     public void SwitchSG1() {
         //Sports/Gym Playlist1
-        Uri webpage = Uri.parse("https://open.spotify.com/playlist/1OX1q67JTZXWUdKF0oKi7e");
+        Uri webpage = Uri.parse("spotify:user:warlock6699:playlist:1OX1q67JTZXWUdKF0oKi7e");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
         activityPoints=50;
@@ -321,7 +319,7 @@ public class PlayerActivity extends AppCompatActivity {
 
     public void SwitchSG2() {
         //Sports/Gym Playlist2
-        Uri webpage = Uri.parse("https://open.spotify.com/playlist/3WK9bqjUmjYKZjpgOePsy8");
+        Uri webpage = Uri.parse("spotify:user:warlock6699:playlist:3WK9bqjUmjYKZjpgOePsy8");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
         activityPoints=50;
